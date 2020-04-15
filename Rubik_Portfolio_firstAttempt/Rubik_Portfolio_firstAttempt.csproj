@@ -67,7 +67,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="agency.html" />
     <Content Include="assets\css\bootstrap.css" />
     <Content Include="assets\css\demo.css" />
     <Content Include="assets\css\fonts\pe-icon-7-stroke.css" />
@@ -100,9 +99,12 @@
     <Content Include="assets\img\builder\numbers_thumb_2.jpg" />
     <Content Include="assets\img\builder\numbers_thumb_3.jpg" />
     <Content Include="assets\img\builder\numbers_thumb_4.jpg" />
+    <Content Include="assets\img\builder\projects\calculator.jpg" />
     <Content Include="assets\img\builder\projects\CitySkyline.jpg" />
     <Content Include="assets\img\builder\projects\CitySkyline2.jpg" />
+    <Content Include="assets\img\builder\projects\CitySkyline3.jpg" />
     <Content Include="assets\img\builder\projects\letters.jpg" />
+    <Content Include="assets\img\builder\projects\letters2.jpg" />
     <Content Include="assets\img\builder\projects\letters_comp.jpg" />
     <Content Include="assets\img\builder\projects\project.jpg" />
     <Content Include="assets\img\builder\projects\reverse.jpg" />
@@ -225,8 +227,6 @@
     <Content Include="Content\SyntaxHighlighter\shThemeMDUltra.css" />
     <Content Include="Content\SyntaxHighlighter\shThemeMidnight.css" />
     <Content Include="Content\SyntaxHighlighter\shThemeRDark.css" />
-    <Content Include="falcontemplate.html" />
-    <Content Include="index.html" />
     <Content Include="Rubik.html" />
     <Content Include="Scripts\SyntaxHighlighter\shAutoloader.js" />
     <Content Include="Scripts\SyntaxHighlighter\shBrushAppleScript.js" />
@@ -256,7 +256,6 @@
     <Content Include="Scripts\SyntaxHighlighter\shBrushXml.js" />
     <Content Include="Scripts\SyntaxHighlighter\shCore.js" />
     <Content Include="Scripts\SyntaxHighlighter\shLegacy.js" />
-    <Content Include="template.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -286,6 +285,7 @@
     <Content Include="assets\img\.DS_Store" />
     <Content Include="assets\js\.DS_Store" />
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\MichaelCarreno-Portfolio - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
