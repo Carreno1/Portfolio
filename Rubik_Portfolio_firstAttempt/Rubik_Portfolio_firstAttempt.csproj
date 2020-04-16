@@ -286,6 +286,7 @@
     <Content Include="assets\fonts\Verlag-Book\Verlag-Book.woff" />
     <Content Include="assets\img\.DS_Store" />
     <Content Include="assets\js\.DS_Store" />
+    <Content Include="assets\Michael Carreno Resume.pdf" />
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\MichaelCarreno-Portfolio - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
