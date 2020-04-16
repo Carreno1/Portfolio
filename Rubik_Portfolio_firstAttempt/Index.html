@@ -289,7 +289,7 @@
                             <a class="over-area color-1 " href="javascript:void(0)" onClick="rubik.showModal(this)" data-target="project_4">
                                 <div class="content">
                                     <h4>Sum of All Fears</h4>
-                                    <p>Click to open a new link.</p>
+                                    <p>Click for more info.</p>
                                 </div>
                             </a>
                         </div>
@@ -471,7 +471,7 @@
 
         </div>
     </div>
-    </div>
+   
 
     <footer class="footer footer-big footer-color-black" id="footerTrigger">
         <div class="container">
@@ -622,7 +622,7 @@
                             <div class="separator line-separator">♦</div>
                         </div>
                         <p>
-                            Fizz Buzz App will take numbers inputed and print "Fizz" at perfect divisibles of the first input,
+                            Fizz Buzz App will take numbers inputed and print numbers 1 through 100. "Fizz" at perfect divisibles of the first input,
                             "Buzz" at perfect divisibles of the second input, and "FizzBuzz" when the number satisfies both conditions.
                         </p>
                     </div>
@@ -1163,10 +1163,17 @@
 
         $("#btnTacoCat").on("click", function () {
 
-            var word = String($("#txtTacoCat").val()).toLowerCase();
+            var word = $("#txtTacoCat").val();
 
             var isPalin = "";
             var revWord = "";
+
+            if (word.length < 1) {
+                alert("There is no word detected");
+                return;
+            }
+
+            word = String(word).toLowerCase();
 
             for (var loop = word.length - 1; loop >= 0; loop--) {
                 revWord += word[loop];
@@ -1254,7 +1261,16 @@
 
         $("#btnSoAF").on("click", function () {
 
-            var k = Number($("#k").val());
+            var k = $("#k").val();
+
+            if (k.length < 1) {
+                alert("no valid input");
+                return;
+
+            }
+
+            k = Number(k);
+
             let arr = new Array();
             var addup = false;
             let answer = "";
@@ -1262,6 +1278,7 @@
             arr.push(Number($("#sumnum2").val()));
             arr.push(Number($("#sumnum3").val()));
             arr.push(Number($("#sumnum4").val()));
+
 
             for (i = 0; i < arr.length; i++) {
                 for (j = 1; j < arr.length; j++) {
