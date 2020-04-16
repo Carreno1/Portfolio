@@ -106,6 +106,8 @@
     <Content Include="assets\img\builder\projects\letters.jpg" />
     <Content Include="assets\img\builder\projects\letters2.jpg" />
     <Content Include="assets\img\builder\projects\letters_comp.jpg" />
+    <Content Include="assets\img\builder\projects\PorfilePic.jpg" />
+    <Content Include="assets\img\builder\projects\Portfolio_profilePic.JPG" />
     <Content Include="assets\img\builder\projects\project.jpg" />
     <Content Include="assets\img\builder\projects\reverse.jpg" />
     <Content Include="assets\img\builder\projects_thumb_1.jpg" />
