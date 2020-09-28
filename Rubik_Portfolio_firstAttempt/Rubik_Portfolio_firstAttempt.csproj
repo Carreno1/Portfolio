@@ -76,10 +76,12 @@
     <Content Include="assets\css\styles.css" />
     <Content Include="assets\fonts\Glyphicons\glyphicons-halflings-regular.svg" />
     <Content Include="assets\fonts\Pe-Icon-Stroke\Pe-icon-7-stroke.svg" />
+    <Content Include="assets\img\app_dev.jpg" />
     <Content Include="assets\img\arrow-left.cur" />
     <Content Include="assets\img\arrow-left.png" />
     <Content Include="assets\img\arrow-right.cur" />
     <Content Include="assets\img\arrow-right.png" />
+    <Content Include="assets\img\blogsite.jpg" />
     <Content Include="assets\img\builder\clients_thumb_1.jpg" />
     <Content Include="assets\img\builder\clients_thumb_2.jpg" />
     <Content Include="assets\img\builder\clients_thumb_3.jpg" />
@@ -177,6 +179,7 @@
     <Content Include="assets\img\clients\vh1_h.svg" />
     <Content Include="assets\img\clients\xerox.svg" />
     <Content Include="assets\img\clients\xerox_h.svg" />
+    <Content Include="assets\img\code.jpg" />
     <Content Include="assets\img\faces\face_1.jpg" />
     <Content Include="assets\img\faces\face_10.jpg" />
     <Content Include="assets\img\faces\face_11.jpg" />
@@ -192,7 +195,10 @@
     <Content Include="assets\img\faces\face_8.jpg" />
     <Content Include="assets\img\faces\face_9.jpg" />
     <Content Include="assets\img\favicon.ico" />
+    <Content Include="assets\img\finance.jpg" />
     <Content Include="assets\img\mask.png" />
+    <Content Include="assets\img\mobile.jpg" />
+    <Content Include="assets\img\network.jpg" />
     <Content Include="assets\img\new_logo.png" />
     <Content Include="assets\img\pattern.png" />
     <Content Include="assets\img\rubik.svg" />
