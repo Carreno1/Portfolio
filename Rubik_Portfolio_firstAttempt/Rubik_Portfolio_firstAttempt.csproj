@@ -201,6 +201,7 @@
     <Content Include="assets\img\network.jpg" />
     <Content Include="assets\img\new_logo.png" />
     <Content Include="assets\img\pattern.png" />
+    <Content Include="assets\img\portfolio_icon.png" />
     <Content Include="assets\img\rubik.svg" />
     <Content Include="assets\img\rubik_background.jpg" />
     <Content Include="assets\img\rubik_background2.jpg" />
